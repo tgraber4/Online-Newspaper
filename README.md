@@ -1,2 +1,2 @@
-** Online Newspaper **
+**Online Newspaper**
 ---------------------------------------
