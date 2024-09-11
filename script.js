@@ -158,12 +158,12 @@ var arrow = function () {
 }
 var clicking = function (event) {
     ctx.fillStyle = "black";
-    ctx.clearRect(0, 50, 50, 60)
     ctx.font = "15px Arial";
     clickx = event.pageX - canvasx
     clicky = event.pageY - canvasy
-    ctx.fillText("x: " + clickx, 10, 70);
-    ctx.fillText("y: " + clicky, 10, 90);
+    // ctx.clearRect(0, 50, 50, 60)
+    // ctx.fillText("x: " + clickx, 10, 70);
+    // ctx.fillText("y: " + clicky, 10, 90);
     if (menu === "pages") {
         if (clickx > 233 && clicky > 1461 && clickx < 316 && clicky < 1480 && page === 1) {
             page = 4;
